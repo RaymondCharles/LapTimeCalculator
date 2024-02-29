@@ -11,6 +11,7 @@ public class laptimecalc
 
     public static String inputString(String message)
     {
+        @SuppressWarnings("resource")
         Scanner scanner = new Scanner(System.in);
         System.out.println(message);
 
